@@ -21,7 +21,7 @@ const requestOptions = {
   redirect: "follow"
 };
 
-fetch("/api/generate", requestOptions)
+fetch("/api/generate/route.js", requestOptions)
   .then((response) => response.json())
   .then((result) => {
     
@@ -53,3 +53,4 @@ fetch("/api/generate", requestOptions)
 }
 
 export default Shorten
+
